@@ -1,0 +1,33 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  top: 0;
+  margin-left: 500px;
+  animation-name: circle;
+  animation-duration: 2s;
+  transition: transfrom 300ms;
+}
+
+body:hover {
+  transform: translateY(100%);
+}
+
+/* @keyframes circle{
+  0% {
+    top: 0;
+  }
+  50%{
+    background-color: blue;
+    top: 50px;
+  }
+  75%{
+    background-color: green;
+    left: 200px;
+  }
+  100%{
+    background-color: yellow;
+  
+  }
+} */
